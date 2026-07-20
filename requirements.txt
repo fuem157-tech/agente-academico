@@ -1,0 +1,12 @@
+langchain
+langchain-classic
+langchain-community
+langchain-text-splitters
+langchain-cohere
+pypdf
+faiss-cpu
+sentence-transformers
+torchvision
+cohere
+streamlit
+python-dotenv
