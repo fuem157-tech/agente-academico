@@ -16,11 +16,52 @@ usando RAG (Retrieval-Augmented Generation).
    ayudar con eso.
 6. Streamlit expone todo esto como una aplicación de chat, con saludo inicial
    y botones de preguntas rápidas.
+
 ## Capturas de pantalla
 
-![Agente respondiendo una pregunta académica](capturas/app-funcionando.png)
+**1. Pantalla de inicio**
 
-## Ejemplos de preguntas
+Saludo inicial, botones de opciones rápidas y cuadro para escribir la pregunta.
+
+![Pantalla de inicio del agente](capturas/01-pantalla-inicio.png)
+
+**2. Botón "Fechas de inscripción / calendario"**
+
+Respuesta con las fechas importantes del calendario escolar del semestre.
+
+![Respuesta sobre el calendario escolar](capturas/02-calendario.png)
+
+**3. Botón "Dudas de calificaciones"**
+
+Respuesta explicando dónde consultar calificaciones y qué hacer ante un desacuerdo.
+
+![Respuesta sobre calificaciones](capturas/03-calificaciones.png)
+
+**4. Botón "Proyectos y entregas"**
+
+Respuesta con los proyectos a entregar en el semestre, por materia y fecha.
+
+![Respuesta sobre proyectos y entregas](capturas/04-proyectos.png)
+
+**5. Botón "Fechas de exámenes"**
+
+Respuesta con los periodos de exámenes parciales y finales.
+
+![Respuesta sobre fechas de examenes](capturas/05-examenes.png)
+
+**6. Pregunta abierta (académica)**
+
+El agente responde correctamente a una pregunta escrita libremente: "¿Quién imparte Literatura?"
+
+![Respuesta a pregunta abierta sobre Literatura](capturas/06-pregunta-literatura.png)
+
+**7. Filtro de preguntas no académicas**
+
+Ante una pregunta no académica ("¿Quién del grupo A ganó la copa del mundo?"), el agente
+identifica que no está relacionada con el manual y explica que no puede responderla.
+
+![El agente rechaza una pregunta no académica](capturas/07-filtro-no-academica.png)
+
 ## Ejemplos de preguntas
 - "¿Cuáles son las fechas importantes del calendario escolar de este semestre?" --puedes utilizar el botón de Fechas inscripcion/calendario 
 - "¿Dónde consulto mis calificaciones y qué hago si no estoy de acuerdo con una?" --puedes utilizar el botón de Dudas calificaciones
