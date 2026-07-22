@@ -108,9 +108,9 @@ El agente consulta 6 documentos PDF:
 6. `streamlit run app.py`
 
 ## Deploy en producción
-La aplicación está desplegada en una instancia de Oracle Cloud (OCI Compute):
+La aplicación está desplegada en una instancia de Oracle Cloud (OCI Compute),
+con un dominio propio y certificado HTTPS (Let's Encrypt) configurado a través
+de Nginx como proxy inverso:
 
-**http://159.54.138.116:8501**
+**https://agente-horizonte.duckdns.org**
 
-(Nota: al ser `http` sin cifrado, el navegador puede mostrar una advertencia
-de "sitio no seguro" — es esperado para este proyecto de prueba.)
